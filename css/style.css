@@ -9,7 +9,6 @@ body{
     margin: 0;
 }
 
-<<<<<<< HEAD
 header .headitens{
     display: flex;
     justify-content: center;
@@ -50,8 +49,10 @@ header {
     display: flex;
     grid-area: banner;
     justify-content: space-around;
-=======
-span{
+
+}   
+
+body span {
     background-color: #30cb70;
     height:  10px;
     display: flex;
@@ -84,5 +85,4 @@ nav .mao{
 
 nav p{
     color: white;
->>>>>>> 0aa543514f1e322145b245fecff20c79eaca7907
 }
