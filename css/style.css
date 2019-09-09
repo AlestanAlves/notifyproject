@@ -9,6 +9,7 @@ body{
     margin: 0;
 }
 
+<<<<<<< HEAD
 header .headitens{
     display: flex;
     justify-content: center;
@@ -49,4 +50,39 @@ header {
     display: flex;
     grid-area: banner;
     justify-content: space-around;
+=======
+span{
+    background-color: #30cb70;
+    height:  10px;
+    display: flex;
+    grid-area: navbar;
+}
+
+nav{
+    align-items: center;
+    background-image: url(../images/banner.png);
+    background-size: cover;
+    grid-area: navbar;
+    height: 200px;
+    margin: 10px 0;
+    padding: 0 10px;
+}
+
+nav div{
+    display: inline;
+    flex-direction: row;
+}   
+
+nav h1{
+    color: white;
+}
+
+nav .mao{
+    align-self: top;
+    mask-image: initial;
+}
+
+nav p{
+    color: white;
+>>>>>>> 0aa543514f1e322145b245fecff20c79eaca7907
 }
