@@ -5,7 +5,6 @@
 <h3>Dicas Git</h3>
 
 **_Subir git:_** `git push origin master`
-
 **_Subir git junto com outras pessoas:_** `git merge --continue depois de aceitar no both do VS code`
 
 <h3>Issues</h3>
