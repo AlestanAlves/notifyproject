@@ -11,6 +11,7 @@
 <h3>Issues</h3>
 
 - [ ] Nav principal
+- [ ] Criar botões do git
 - [ ] Botões
 - [ ] Banner central com ferramentas
 - [ ] Video 
