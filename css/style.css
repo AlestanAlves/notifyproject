@@ -1,9 +1,9 @@
 body{
     display: grid;
-    grid-template-areas: 'navbar'
-                          'banner'
+    grid-template-areas: 'navbar' 
+                          'banner' 
                           'main'
-                          'video'
+                          'video' 
                           'section'
                           'footer';
     grid-template-columns: 100vw;
@@ -28,8 +28,8 @@ header .headitens{
     width: 80px;
     height: 80px;
     align-items: center;
-    display: flex;
     justify-content: center;
+    display: flex;
    
 }
 
@@ -53,8 +53,24 @@ header .headitens{
     justify-content: center;
 }
 
+.circle:hover {
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+    background-color: rgb(22, 22, 22);
+}
+.circle2:hover {
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+    background-color: rgb(22, 22, 22);
+}
+.circle3:hover {
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+    background-color: rgb(22, 22, 22);
+}
+
 .circle5{
-    background-color: rgb(104, 103, 103);
+    background-color: rgb(22, 22, 22);
     border-radius: 50%;
     width: 50px;
     height: 50px;
@@ -68,7 +84,7 @@ header .headitens{
 }
 
 .circle7{
-    background-color: rgb(104, 103, 103);
+    background-color: rgb(22, 22, 22);
     border-radius: 50%;
     width: 50px;
     height: 50px;
@@ -81,7 +97,7 @@ header .headitens{
 }
 
 .circle8{
-    background-color: rgb(104, 103, 103);
+    background-color: rgb(22, 22, 22);
     border-radius: 50%;
     width: 50px;
     height: 50px;
@@ -135,9 +151,10 @@ nav{
     background-image: url(../images/banner.png);
     background-size: cover;
     grid-area: navbar;
-    height: 300px;
+    height: 250px;
     margin: 10px 0;
     padding: 10px;
+    align-content: center;
 }
 
 nav div{
@@ -146,11 +163,19 @@ nav div{
     float: left;
 }   
 
+#nava {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 60px 0px;
+}
+
 
 
 nav h1{
     color: white;
     font-family: 'Pacifico', cursive;
+    text-align: left;
+    padding: 0 60px;
 }
 
 nav .mao{
@@ -160,13 +185,26 @@ nav .mao{
 
 nav p{
     color: white;
+    padding: 0 60px;
 }
 
 main {
     grid-area: main;
     background-color: rgb(189, 189, 189);
-    height: 220px;
+    height: 380px;
     padding: 15px;
+}
+
+main p {
+    color: rgb(107, 107, 107);
+}
+
+main iframe{
+    position: center;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    
 }
 
 main .bottom {
@@ -177,4 +215,52 @@ section {
     grid-area: video;
     text-align: center;
     padding: 15px;
+}
+
+section .paragrafomid{
+    color: rgb(107, 107, 107);
+}
+
+section p{
+    color: rgb(107, 107, 107);
+}
+
+section .circulo {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    float: left;
+    padding: 0 35% 0 ;
+}
+
+
+.circulo1{
+    background-color: rgb(86, 216, 86);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+   
+}
+
+.circulo2{
+    flex-direction: row;
+    background-color: rgb(86, 216, 86);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.circulo3{
+    background-color: rgb(86, 216, 86);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
 }
