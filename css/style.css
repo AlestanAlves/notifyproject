@@ -23,7 +23,7 @@ header .headitens{
 }
 
 .circle{
-    background-color: rgb(86, 216, 86);
+    background-color: #2ccc6d;
     border-radius: 50%;
     width: 80px;
     height: 80px;
@@ -35,7 +35,7 @@ header .headitens{
 
 .circle2{
     flex-direction: row;
-    background-color: rgb(86, 216, 86);
+    background-color: #2ccc6d;
     border-radius: 50%;
     width: 80px;
     height: 80px;
@@ -44,7 +44,7 @@ header .headitens{
     justify-content: center;
 }
 .circle3{
-    background-color: rgb(86, 216, 86);
+    background-color:#2ccc6d;
     border-radius: 50%;
     width: 80px;
     height: 80px;
@@ -112,17 +112,17 @@ header .headitens{
 .circle5:hover {
     opacity: 1.0;
     filter: alpha(opacity=100);
-    background-color: #30cb70;
+    background-color: #2ccc6d;
 }
 .circle7:hover {
     opacity: 1.0;
     filter: alpha(opacity=100);
-    background-color: #30cb70;
+    background-color: #2ccc6d;
 }
 .circle8:hover {
     opacity: 1.0;
     filter: alpha(opacity=100);
-    background-color: #30cb70;
+    background-color: #2ccc6d;
 }
 
 header {
@@ -133,6 +133,8 @@ header {
     padding: 40px;
     flex-direction: column;
     height: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
 }   
 
 header p{
@@ -140,11 +142,12 @@ header p{
 }
 
 body span {
-    background-color: #30cb70;
+    background-color: #2ccc6d;
     height:  10px;
     display: flex;
     grid-area: navbar;
 }
+
 
 nav{
     align-items: center;
@@ -204,6 +207,7 @@ main iframe{
     padding: 20px;
     display: flex;
     align-items: center;
+
     
 }
 
@@ -227,27 +231,27 @@ section p{
 
 section .circulo {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     flex-direction: row;
-    float: left;
-    padding: 0 35% 0 ;
+    float: none;
+    
 }
 
 
 .circulo1{
-    background-color: rgb(86, 216, 86);
+    background-color: #2ccc6d;
     border-radius: 50%;
     width: 40px;
     height: 40px;
     align-items: center;
     justify-content: center;
     display: flex;
-   
+    
 }
 
 .circulo2{
     flex-direction: row;
-    background-color: rgb(86, 216, 86);
+    background-color: #2ccc6d;
     border-radius: 50%;
     width: 40px;
     height: 40px;
@@ -256,11 +260,41 @@ section .circulo {
     justify-content: center;
 }
 .circulo3{
-    background-color: rgb(86, 216, 86);
+    background-color: #2ccc6d;
     border-radius: 50%;
     width: 40px;
     height: 40px;
     align-items: center;
     display: flex;
     justify-content: center;
+}
+
+.hackvideo{
+    display: none;
+    visibility: hidden;
+}
+
+@media(min-width:683px){
+    main{
+        display:flex;
+        
+    }
+
+    .hackvideo{
+        display: block;
+    }
+    
+    nav {
+        background-position: cover;
+    }
+
+    header .headitens{
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    header{
+        height: 270px;
+    }
+
+
 }
