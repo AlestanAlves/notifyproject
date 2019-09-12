@@ -13,7 +13,7 @@
 - [x] Nav principal
 - [ ] Criar botões do git
 - [ ] Botões
-- [ ] Banner central com ferramentas
+- [x] Banner central com ferramentas
 - [x] Video 
-- [ ] Main
+- [x] Main
 - [ ] Footer
