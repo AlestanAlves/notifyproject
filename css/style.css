@@ -206,6 +206,7 @@ main {
     background-color: rgb(189, 189, 189);
     height: 380px;
     padding: 15px;
+    display: flex;
 }
 
 main p {
@@ -222,7 +223,7 @@ main iframe{
 input{
     border: none;
     height: 40px;
-    background-color: #2ccc6d;
+    background-image: linear-gradient(90deg, #2ccc6d 39%, rgb(103, 192, 30) 100%);
 }
 
 .email {
@@ -324,7 +325,7 @@ nav .hackvideo{
     }
 
     .hackvideo{
-        display: block;
+        display: none;
     }
     .hackvideo2{
         display: none;
