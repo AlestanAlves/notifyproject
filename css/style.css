@@ -21,6 +21,12 @@ header .headitens{
     justify-content: center;
     flex-direction: column;
 }
+body span {
+    background-color: #2ccc6d;
+    height:  10px;
+    display: flex;
+    grid-area: navbar;
+}
 
 .circle{
     background-color: #2ccc6d;
@@ -160,14 +166,12 @@ header p{
     color: rgb(107, 107, 107);
 }
 
-body span {
-    background-color: #2ccc6d;
-    height:  10px;
+img .mao{
+    align-items: flex-end;
     display: flex;
-    grid-area: navbar;
+    float: right;
+    height: 400px;
 }
-
-
 nav{
     align-items: center;
     background-image: url(../images/banner.png);
@@ -198,11 +202,6 @@ nav h1{
     font-family: 'Pacifico', cursive;
     text-align: left;
     padding: 0 60px;
-}
-
-nav .mao{
-    align-self: top;
-    mask-image: initial;
 }
 
 nav p{
