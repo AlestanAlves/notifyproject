@@ -10,10 +10,9 @@
 
 <h3>Issues</h3>
 
-- [x] Nav principal
-- [ ] Criar botões do git
-- [ ] Botões
-- [x] Banner central com ferramentas
-- [x] Video 
+- [x] Navbar
+- [x] Banner
 - [x] Main
-- [ ] Footer
+- [ ] Video
+- [x] Section
+- [x] Footer
