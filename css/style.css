@@ -125,6 +125,25 @@ header .headitens{
     background-color: #2ccc6d;
 }
 
+footer{
+    align-items: center;
+    background-color: rgb(189, 189, 189);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    grid-area: footer;
+    height: 120px;
+    justify-content: space-between;
+    padding: 10px;
+    width: 100vw;
+}
+
+footer a{
+    text-decoration: none;
+    color: rgb(126, 123, 123);
+    cursor: pointer;
+}
+
 header {
     text-align: center;
     display: flex;
@@ -295,6 +314,8 @@ section .circulo {
     header{
         height: 270px;
     }
-
-
+    footer {
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
 }
