@@ -165,15 +165,8 @@ header p{
     color: rgb(107, 107, 107);
 }
 
-<<<<<<< HEAD
-img .a{
-    display: block;
-    float: left;
-    width: 120px;
-=======
 .mao{
     display: none;
->>>>>>> a85e4154f502021e87e69d516562b63006916805
 }
 nav{
     align-items: center;
