@@ -141,7 +141,6 @@ footer{
     height: 120px;
     justify-content: space-between;
     padding: 10px;
-    width: 100vw;
 }
 
 footer a{
@@ -166,32 +165,33 @@ header p{
     color: rgb(107, 107, 107);
 }
 
+<<<<<<< HEAD
 img .a{
     display: block;
     float: left;
     width: 120px;
+=======
+.mao{
+    display: none;
+>>>>>>> a85e4154f502021e87e69d516562b63006916805
 }
 nav{
     align-items: center;
     background-image: url(../images/banner.png);
-    background-size: cover;
     grid-area: navbar;
     height: 250px;
     margin: 10px 0;
     padding: 10px;
-    align-content: center;
-}
-
-nav div{
     display: flex;
-    flex-direction: row;
-    float: left;
-}   
+    justify-content: center;
+    flex-direction: column;
+}
 
 #nava {
     display: flex;
     justify-content: space-between;
-    padding: 0 60px 0px;
+    flex-direction: row;
+    float: left;
 }
 
 
@@ -213,6 +213,7 @@ main {
     background-color: rgb(189, 189, 189);
     height: 380px;
     padding: 15px;
+    display: flex;
 }
 
 main p {
@@ -223,14 +224,21 @@ main iframe{
     position: center;
     padding: 20px;
     display: flex;
-    align-items: center;
-
-    
+    align-items: center;    
 }
 
-main .bottom {
-    
+input{
+    border: none;
+    height: 40px;
+    background-image: linear-gradient(90deg, #2ccc6d 39%, rgb(103, 192, 30) 100%);
 }
+
+.email {
+    border: none;
+    display: flex;
+    justify-content: center;
+}
+
 
 section {
     grid-area: video;
@@ -248,7 +256,7 @@ section p{
 
 section .circulo {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     flex-direction: row;
     float: none;
     
@@ -285,10 +293,36 @@ section .circulo {
     display: flex;
     justify-content: center;
 }
+.circulo4{
+    background-color: #2ccc6d;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.circulo5{
+    background-color: #2ccc6d;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.circulo6{
+    background-color: #2ccc6d;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
 
-.hackvideo{
+nav .hackvideo{
     display: none;
-    visibility: hidden;
 }
 
 @media(min-width:683px){
@@ -298,11 +332,17 @@ section .circulo {
     }
 
     .hackvideo{
-        display: block;
+        display: none;
+    }
+    .hackvideo2{
+        display: none;
     }
     
     nav {
-        background-position: cover;
+        display: flex;
+        flex-direction: row;
+        position: right;
+
     }
 
     header .headitens{
@@ -312,8 +352,26 @@ section .circulo {
     header{
         height: 270px;
     }
+
     footer {
         flex-direction: row;
         justify-content: space-evenly;
+        height: 50px;
     }
+    nav h1{
+        width: 90px;
+    }
+    nav p{
+        width: 200px;
+
+}
+
+@media(min-width:873px){
+    .mao{
+        display:flex;
+        height: 270px;
+        width: 290px;
+        padding: 180px;
+    }
+    
 }
