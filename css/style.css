@@ -166,11 +166,10 @@ header p{
     color: rgb(107, 107, 107);
 }
 
-img .mao{
-    align-items: flex-end;
-    display: flex;
-    float: right;
-    height: 400px;
+img .a{
+    display: block;
+    float: left;
+    width: 120px;
 }
 nav{
     align-items: center;
